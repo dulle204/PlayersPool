@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="fabric:/PlayersPool" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters>
+    <Parameter Name="PlayersPool.API.Stateful_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PlayersPool.API.Stateful_PartitionCount" Value="1" />
+    <Parameter Name="PlayersPool.API.Stateful_MinReplicaSetSize" Value="3" />
+    <Parameter Name="PlayersPool.API.Stateful_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="PlayersPool.Service_InstanceCount" Value="1" />
+    <Parameter Name="Stateless1_InstanceCount" Value="1" />
+    <Parameter Name="Web1_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="Web1_InstanceCount" Value="1" />
+  </Parameters>
+</Application>
