@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayersPool.API.Stateful", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayersPool.API.Staless", "PlayersPool.API.Staless\PlayersPool.API.Staless.csproj", "{BADF1678-EE95-40D4-9EAF-7E21E5EFD54F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{12BDF656-0FFA-490B-93C0-6E884408E9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AE07DD4-B647-4102-8F90-211F5374DA44} = {12BDF656-0FFA-490B-93C0-6E884408E9CA}
+		{BADF1678-EE95-40D4-9EAF-7E21E5EFD54F} = {12BDF656-0FFA-490B-93C0-6E884408E9CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A035C79-76AB-4C54-866A-A1841C6EA2C3}
