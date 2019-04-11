@@ -32,6 +32,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PlayerPool.DataActor\PlayerPool.DataActor.csproj" />
     <ProjectReference Include="..\PlayersPool.API.Staless\PlayersPool.API.Staless.csproj">
       <ServiceLaunchUrl>http://{MachineName}:{ServicePort}/api/values</ServiceLaunchUrl>
     </ProjectReference>
